@@ -385,7 +385,7 @@ public class Conexion {
                     bandera = true;
                 }
              }else{
-                mensaje2("ERROR: The serial number doesn't exist in receiving or wrong part_no" , "Pull System",scaneeo);
+                mensaje2("ERROR: The serial number is not a pull system number" , "Pull System",scaneeo);
             }
         } catch (SQLException ex) {
             mensaje(ex.getMessage(),"Pull System");
